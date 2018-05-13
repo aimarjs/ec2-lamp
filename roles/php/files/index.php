@@ -6,5 +6,7 @@
   </head>
   <body>
     <h1><?php echo "Welcome to DevOps on AWS with PHP" ?></h1>
+    <h2><?php echo "Change will be reflected by ansible-pull" ?></h2>
+
   </body>
 </html>
