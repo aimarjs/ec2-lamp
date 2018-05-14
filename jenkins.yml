@@ -1,0 +1,7 @@
+---
+- hosts: 34.244.76.120
+  become: yes
+  roles:
+    - jenkins
+    - php
+    - phpunit

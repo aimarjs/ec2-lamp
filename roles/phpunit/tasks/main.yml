@@ -1,0 +1,6 @@
+---
+- name: Download the tool and place in a system directory
+  get_url:
+    url: https://phar.phpunit.de/phpunit-6.4.phar
+    dest: /usr/local/bin/phpunit
+    mode: 0555
